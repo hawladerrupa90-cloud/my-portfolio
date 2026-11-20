@@ -21,3 +21,39 @@ p {
     font-size: 18px;
 }
 
+/* Project Gallery */
+
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #7b2cbf;
+    font-size: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #7b2cbf;
+}
+
+.project-card p {
+    color: #555;
+    font-size: 15px;
+}
+
